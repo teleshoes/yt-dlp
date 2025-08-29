@@ -1,5 +1,6 @@
 
 from .common import InfoExtractor
+from ..compat import functools
 from ..utils import (
     int_or_none,
     parse_duration,

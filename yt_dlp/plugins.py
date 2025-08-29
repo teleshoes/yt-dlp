@@ -1,6 +1,5 @@
 import contextlib
 import dataclasses
-import functools
 import importlib
 import importlib.abc
 import importlib.machinery
@@ -22,6 +21,7 @@ from .globals import (
     plugin_specs,
 )
 
+from .compat import functools  # isort: split
 from .utils import (
     get_executable_path,
     get_system_config_dirs,
